@@ -1,5 +1,5 @@
 ### GILDED ROSE
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  [![Status](https://img.shields.io/badge/Status-Construindo-%2322af2e?style=flat))](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  [![Status](https://img.shields.io/badge/Status-Construindo-%2322af2e?style=flat)](https://choosealicense.com/licenses/mit/)
 
 Este repositório tem como objetivo documentar a refatoração e a implementação de funcionalidades no sistema Gilded Rose. A Gilded Rose é uma pequena pousada estrategicamente localizada em uma prestigiosa cidade, que também compra e vende mercadorias. Infelizmente, essas mercadorias perdem qualidade à medida que se aproximam da data de venda.
 
