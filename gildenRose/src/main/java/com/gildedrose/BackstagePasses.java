@@ -22,14 +22,14 @@ public class BackstagePasses extends Item {
 	}
 	
 	private void increaseQuality() {
-		quality += 1;
-		if(sellIn <= 10) {
-			quality += 1;
-		} else {
-			if(sellIn <= 5) {
-				quality += 2;
-			}
-		}
+		if (sellIn < 6) {
+            quality += 3;
+        } else 
+        	if (sellIn < 11) {
+        		quality += 2;
+        	} else {
+        		quality += 1;
+        	}
 	}
 	
 	private void decreaseQualityExpiredDeadline() {
