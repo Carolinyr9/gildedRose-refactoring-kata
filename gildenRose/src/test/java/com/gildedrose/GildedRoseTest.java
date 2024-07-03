@@ -49,7 +49,7 @@ class GildedRoseTest {
     	Integer quality = 54;
     	Integer expectedReturn = 54;
     	
-        Item[] items = new Item[] { new Item("Backstage Pass", sellIn, quality) };
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", sellIn, quality) };
         GildedRose app = new GildedRose(items);
         
         for(int i = 0; i < sellIn; i++) {
@@ -85,7 +85,7 @@ class GildedRoseTest {
     	Integer quality = 10;
     	Integer expectedReturn = 0;
     	
-        Item[] items = new Item[] { new Item("Backstage Pass", sellIn, quality) };
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", sellIn, quality) };
         GildedRose app = new GildedRose(items);
         
         for(int i = 0; i < 5; i++) {
@@ -141,7 +141,7 @@ class GildedRoseTest {
     	Integer quality = 10;
     	Integer expectedReturn = 37;
     	
-        Item[] items = new Item[] { new Item("Backstage Pass", sellIn, quality) };
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", sellIn, quality) };
         GildedRose app = new GildedRose(items);
         
         for(int i = 0; i < sellIn; i++) {
@@ -159,7 +159,7 @@ class GildedRoseTest {
     	Integer quality = 10;
     	Integer expectedReturn = 10;
     	
-        Item[] items = new Item[] { new Item("Sulfuras", sellIn, quality) };
+        Item[] items = new Item[] { new Item("Sulfuras, Hand of Ragnaros", sellIn, quality) };
         GildedRose app = new GildedRose(items);
         
         for(int i = 0; i < sellIn; i++) {
@@ -213,7 +213,7 @@ class GildedRoseTest {
     	Integer quality = 10;
     	Integer expectedReturn = 5;
     	
-        Item[] items = new Item[] { new Item("Backstage Pass", sellIn, quality) };
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", sellIn, quality) };
         GildedRose app = new GildedRose(items);
         
         for(int i = 0; i < 5; i++) {
@@ -231,7 +231,7 @@ class GildedRoseTest {
     	Integer quality = 10;
     	Integer expectedReturn = 10;
     	
-        Item[] items = new Item[] { new Item("Sulfuras", sellIn, quality) };
+        Item[] items = new Item[] { new Item("Sulfuras, Hand of Ragnaros", sellIn, quality) };
         GildedRose app = new GildedRose(items);
         
         for(int i = 0; i < 5; i++) {
