@@ -10,8 +10,8 @@ class GildedRose {
     public void update() {
     	for (Item item : items) {
     		item = checkQuality(item);
-			item.updateStatus();
-		}
+		item.updateStatus();
+	}
     }
     
     private Item checkQuality(Item item) {
